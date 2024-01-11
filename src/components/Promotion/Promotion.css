@@ -1,0 +1,42 @@
+.Promotion{
+    width: 50%;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Promotion h3{
+    color: #FFEFEC;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.Promotion h1{
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 71.042px; /* 177.606% */
+}
+.Promotion button{
+    display: flex;
+    width: 183px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+    background-color: transparent;
+    color: var(--white, #FFF);
+    font-size: 15px;
+    font-weight: 600;
+    }
+    @media screen and (max-width:992px){
+        .Promotion{
+            width: 100%;
+        }
+    }

@@ -1,0 +1,50 @@
+
+.AboutSec2{
+    height: 432px;
+    background-size: 100% 100%;
+    object-fit: cover;
+    position: relative;
+}
+.AboutSec2 .child1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.AboutSec2 .child1 h1{
+    color: #FFF;
+    font-family: Yesteryear;
+    font-size: 9.839rem;
+    font-weight: 400;
+    line-height: 223.678px; /* 142.085% */
+}
+.square{
+    width: 6.625rem;
+    height: 6.625rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 3;
+    border-radius: 50%;
+    background-color: #DF6951;
+}
+.triangle-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 5;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-left: 20px solid white;
+	border-bottom: 13px solid transparent;
+}
+@media screen and (max-width:992px) {
+    .AboutSec2 .child1 h1{
+        font-size: 6rem;
+    }
+
+}

@@ -1,0 +1,79 @@
+.TrendyCard{
+    width:  390px;
+    height: 582px;
+    /* padding-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    background: #F9F9F9;
+
+}
+.TrendyCard-child1{
+    position: relative;
+}
+.TrendyCard-child2{
+    padding-left: 20px;
+    
+}
+.TrendyCard .flag{
+    position: absolute;
+    left: 20px;
+    bottom: 0%;
+    transform: translateY(25%);
+}
+.TrendyCard-child2 .child1{
+    display: flex;
+    gap: 37.5px;
+    align-items: center;
+}
+.TrendyCard-child2 .child3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TrendyCard-child2 .child1 span{
+    color: #7D7D7D;
+    font-size: 1.050rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.TrendyCard-child2 .child3 h3{
+    color: #2F2F2F;
+    font-size: 1.562rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.TrendyCard-child2 .decr{
+    color: #5E6282;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 21.4px; /* 152.857% */
+    letter-spacing: 0.7px;
+}
+.TrendyCard-child2 button{
+    margin: 25px 0px;
+    display: flex;
+    width: 128.291px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #DF6951;
+    color: var(--white, #FFF);
+    font-size: 12px;
+    font-weight: 600;
+}
+.ml-9{
+margin-right: 9px; 
+}
+@media screen and (max-width:992px) {
+    .TrendyCard{
+        width: 300px;
+        height: 450px;
+    }
+.TrendyCard-child1 .img1{
+    width: 100%;
+}
+}

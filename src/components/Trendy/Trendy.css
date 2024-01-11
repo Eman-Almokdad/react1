@@ -1,0 +1,33 @@
+.Trendy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.trendy-h1{
+    padding-bottom: 70px;
+    width: 80vw;
+    color: #1E1D4C;
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 71.042px; /* 142.085% */
+}
+.TrendyCards{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .TrendyCards{
+        width: 100%;
+        justify-content: center;
+    }
+}

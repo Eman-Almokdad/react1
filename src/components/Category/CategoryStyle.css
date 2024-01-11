@@ -1,0 +1,42 @@
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.CATEGORY-p{
+    color: #DF6951;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.CATEGORY-h1{
+    text-align: center;
+    color: #1E1D4C;
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.CATEGORY-card{
+    width: 85%;
+    margin: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Explore{
+    width: 100%;
+    display: flex;
+
+}
+@media screen and (max-width:992px) {
+    .CATEGORY-card{
+        justify-content: center;
+        gap: 20px;
+    }
+    .Explore{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

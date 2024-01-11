@@ -1,0 +1,20 @@
+.card-serv{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-serv h1{
+    color: var(--text-heading-color, #1E1D4C);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card-serv h3{
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
